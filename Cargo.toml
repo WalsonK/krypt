@@ -1,0 +1,12 @@
+[package]
+name = "krypt"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "krypt"
+crate-type = ["rlib", "cdylib"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bcrypt = "0.15.0"
